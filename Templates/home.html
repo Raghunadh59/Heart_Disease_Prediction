@@ -1,0 +1,28 @@
+
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{%static 'home.css'%}"
+</head>
+
+<body>
+    {%block content%}
+    {% endblock %}
+    <center>
+        <div class="main_head">
+            <h1>Heart Disease Predictor</h1>
+        </div>
+    </center>
+    <center>
+        <button type="button">
+            <a href="/predict" style="text-decoration:none">predict</a>
+        </button>
+    </center>
+</body>
+
+</html>
